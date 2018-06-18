@@ -1,6 +1,3 @@
-## Catching the mean of a Vector
-## for Coursera course
-
 ## This function creates a special object that stores a numerix matrix
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -18,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function computes the inverse of the special "matrix"
 
 cacheSolve <- function(x, ...) {
     m <- x$getrow()    ## Return a matrix that is the inverse of 'x'
